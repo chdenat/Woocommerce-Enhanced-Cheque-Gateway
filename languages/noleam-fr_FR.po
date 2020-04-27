@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Cheques Gateway\n"
+"POT-Creation-Date: 2020-04-27 11:50+0200\n"
+"PO-Revision-Date: 2020-04-27 17:53+0200\n"
+"Last-Translator: Christian Denat <christian.denat@orange.fr>\n"
+"Language-Team: Christian Denat <christian.denat@orange.fr>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: cheques-gateway.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: cheques-gateway.php:65
+msgid "Cheques"
+msgstr "Chèques"
+
+#: cheques-gateway.php:66
+msgid ""
+"Depending on cart total, customers will be able to pay by one or more cheques"
+msgstr ""
+"Selon le total des paniers, les clients pourront payer par un ou plusieurs "
+"chèques"
+
+#: cheques-gateway.php:123
+msgid "Enable/Disable"
+msgstr "Activer/Désactiver"
+
+#: cheques-gateway.php:125
+msgid "Enable cheques payment"
+msgstr "Autoriser le paiement par chèques"
+
+#: cheques-gateway.php:129
+msgid "Title"
+msgstr "Titre"
+
+#: cheques-gateway.php:131
+msgid "This controls the title which the user sees during checkout."
+msgstr "Cela détermine le titre que l'utilisateur voit lors de la commande."
+
+#: cheques-gateway.php:132
+msgctxt "Cheques payment"
+msgid "Cheque payment"
+msgstr "Paiement par  chèques"
+
+#: cheques-gateway.php:136
+msgid "Description"
+msgstr "Description"
+
+#: cheques-gateway.php:138
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+"Méthode de paiement que le client verra lors du passage de la commande."
+
+#: cheques-gateway.php:139
+msgid "You can pay by cheques"
+msgstr "Vous pouvez payer par chèques"
+
+#: cheques-gateway.php:143
+msgid "Instructions"
+msgstr "Instructions"
+
+#: cheques-gateway.php:145
+msgid "Additionals instructions."
+msgstr "Instructions supplémentaires."
+
+#: cheques-gateway.php:146
+msgid "Check(s) should be made payable to "
+msgstr "Le.s chèques.s doivent être libellés au nom de "
+
+#: cheques-gateway.php:150
+msgid "Store address"
+msgstr "Adresse de la boutique"
+
+#: cheques-gateway.php:152
+msgid "Enter/modify the store address."
+msgstr "Entrez/modifiez l’adresse du magasin."
+
+#: cheques-gateway.php:157
+msgid "Available payments by cheque"
+msgstr "Paiements disponibles par chèque"
+
+#: cheques-gateway.php:159
+msgid "Enter available payments separated by comma ."
+msgstr "Entrez les paiements disponibles séparés par une virgule ."
+
+#: cheques-gateway.php:164
+msgid "Available thresholds for payments"
+msgstr "Seuils disponibles pour les paiements"
+
+#: cheques-gateway.php:166
+msgid ""
+"For each (or less) payments listed above, enter threshold that will trigger "
+"this payment (separated by commas)"
+msgstr ""
+"Pour chaque paiement (ou moins) énuméré ci-dessus, entrez le seuil qui "
+"déclenchera le paiement (séparé par des virgules)"
+
+#: cheques-gateway.php:186
+#, php-format
+msgid "The payment will be done in %s."
+msgstr "Le paiement se fera en %s."
+
+#: cheques-gateway.php:186
+msgid "cheque"
+msgid_plural "cheques"
+msgstr[0] "chèque"
+msgstr[1] "chèques"
+
+#: cheques-gateway.php:189
+msgid "Number of cheques :"
+msgstr "Nombre de chèques :"
+
+#: cheques-gateway.php:238
+msgctxt "Checks payment method"
+msgid "Awaiting checks payment"
+msgstr "En attente de paiement par chèques"
+
+#: cheques-gateway.php:356
+msgid "Instructions regarding your payments"
+msgstr "Instructions concernant votre paiement en chèque"
+
+#: cheques-gateway.php:358
+#, php-format
+msgid "You have chosen to pay by cheque."
+msgid_plural "You have chosen to pay with <strong>%s cheques</strong>"
+msgstr[0] "Vous avez choisi de payer par chèque."
+msgstr[1] "Vous avez choisi de payer en  <strong>%s chèques</strong>"
+
+#: cheques-gateway.php:364
+msgid "Please send your cheque at"
+msgid_plural "Please send all the cheques at"
+msgstr[0] "Merci d'envoyer votre chèque à"
+msgstr[1] "Merci d'envoyer l'ensemble des  chèques à"
+
+#: cheques-gateway.php:369
+#, php-format
+msgid "Your cheque for %s will be debited once received."
+msgstr "Votre chèque de  %s sera débité dès réception."
+
+#: cheques-gateway.php:371
+#, php-format
+msgid "One cheque for %s (debited once received)."
+msgstr "Un chèque d'un montant de  %s (débité à reception)."
+
+#: cheques-gateway.php:374
+#, php-format
+msgid "The next cheque (%s) will be debited on "
+msgstr "Le prochain chèque (%s) sera débité le "
+
+#: cheques-gateway.php:379
+#, php-format
+msgid "%s cheques for %s each."
+msgstr "%s chèques de %s chacun."
+
+#: cheques-gateway.php:382
+#, php-format
+msgid "%s debited on <strong>%s</strong>"
+msgstr "%s débités le <strong>%s</strong>"
+
+#: cheques-gateway.php:391
+#, php-format
+msgid "Thank you. Your order will be validated once we'll receive the cheque."
+msgid_plural ""
+"Thank you. The order will be validated once we'll receive the %s cheques."
+msgstr[0] "Merci. Votre commande sera validée à la réception du chèque."
+msgstr[1] "Merci. Votre commande sera validée à la reception des %s chèques."
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Cheques Gateway"
+msgstr "Woocommerce - Paiement en chèques"
+
+#. Description of the plugin/theme
+msgid "WooCommerce Gateway for multi cheques payment."
+msgstr "Gateway WooCommerce pour le paiement multi chèques."
+
+#. Author of the plugin/theme
+msgid "Christian Denat"
+msgstr "Christian Denat"
+
+#. Author URI of the plugin/theme
+msgid "https://www.noleam.fr"
+msgstr "https://www.noleam.fr"
+
+#, php-format
+#~ msgid "%s cheques for %s each"
+#~ msgstr "%s chèques d'un montant de %s chacun"

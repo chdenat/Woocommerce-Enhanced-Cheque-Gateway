@@ -1,0 +1,42 @@
+
+.woocommerce .cheques-payment-instructions-content {
+    border: 1px solid rgba(0, 0, 0, .1);
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.woocommerce .cheques-payment-instructions-content > ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.woocommerce .cheques-payment-instructions-content > ul > li {
+    width: 50%;
+}
+
+.woocommerce .cheques-payment-instructions-content > ul li.cheques-amount-date {
+    padding-left: 10px;
+}
+
+.woocommerce .cheques-payment-address address {
+    padding-left: 30px;
+}
+
+@media (max-width: 768px) {
+    .woocommerce .cheques-payment-instructions-content > ul {
+        flex-flow: column wrap;
+    }
+
+    .woocommerce .cheques-payment-instructions-content > ul li {
+        width: 100%;
+    }
+
+    .woocommerce .cheques-payment-instructions-content > ul li.cheques-amount-date {
+        padding-left: 0;
+    }
+}
